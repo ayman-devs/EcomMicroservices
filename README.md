@@ -71,7 +71,7 @@ Le chemin du dossier `config-repo` est défini dans `config-service/src/main/res
 
 ## Captures des tests
 
-Tests réalisés le 22/11/2026 avec les 6 services lancés en local. Chaque capture montre l'URL appelée et la réponse réelle obtenue.
+Tests réalisés le 22/11/2026 avec les 6 services lancés en local. Les captures ont été prises dans le navigateur ; chacune montre l'URL appelée et la réponse obtenue.
 
 **Eureka - Services enregistrés**
 
@@ -99,7 +99,7 @@ Tests réalisés le 22/11/2026 avec les 6 services lancés en local. Chaque capt
 
 **customer-service - Liste des clients (accès direct)**
 
-![customer-service - Liste des clients (accès direct)](screens/07-customer-direct.png)
+![customer-service - Liste des clients (accès direct)](screens/07-customers.png)
 
 **Gateway - Liste des clients**
 
