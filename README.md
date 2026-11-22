@@ -71,7 +71,47 @@ Le chemin du dossier `config-repo` est défini dans `config-service/src/main/res
 
 ## Captures des tests
 
-Les captures sont dans le dossier [`screens/`](./screens).
+Tests réalisés le 22/11/2026 avec les 6 services lancés en local. Chaque capture montre l'URL appelée et la réponse réelle obtenue.
+
+**Eureka - Services enregistrés**
+
+![Eureka - Services enregistrés](screens/01-eureka.png)
+
+**Config Server - Configuration globale**
+
+![Config Server - Configuration globale](screens/02-config-application.png)
+
+**Config Server - customer-service (profil default)**
+
+![Config Server - customer-service (profil default)](screens/03-config-customer-default.png)
+
+**Config Server - customer-service (profil dev)**
+
+![Config Server - customer-service (profil dev)](screens/04-config-customer-dev.png)
+
+**customer-service - Paramètres globaux reçus**
+
+![customer-service - Paramètres globaux reçus](screens/05-customer-testconfig1.png)
+
+**customer-service - Paramètres propres au service**
+
+![customer-service - Paramètres propres au service](screens/06-customer-testconfig2.png)
+
+**customer-service - Liste des clients (accès direct)**
+
+![customer-service - Liste des clients (accès direct)](screens/07-customer-direct.png)
+
+**Gateway - Liste des clients**
+
+![Gateway - Liste des clients](screens/08-gateway-customers.png)
+
+**Gateway - Liste des produits**
+
+![Gateway - Liste des produits](screens/09-gateway-products.png)
+
+**Gateway - Facture complète n°1 (OpenFeign)**
+
+![Gateway - Facture complète n°1 (OpenFeign)](screens/10-gateway-bill.png)
 
 ## Technologies
 
